@@ -11,31 +11,21 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-<<<<<<< HEAD
-=======
 from .info import *
->>>>>>> 9653323 (3 commit)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-<<<<<<< HEAD
-=======
 EMAIL_USER_TLS = EMAIL_USE_TLS
 EMAIL_HOST = EMAIL_HOST
 EMAIL_HOST_USER = EMAIL_HOST_USER
 EMAIL_HOST_PASSWORD = EMAIL_HOST_PASSWORD
 EMAIL_PORT = EMAIL_PORT
 
->>>>>>> 9653323 (3 commit)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 9653323 (3 commit)
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-px#(37+ydlt7&fcw=+@2rv&0q(m3l3&3q(v_1h5o#ud8%*&20m"
 
